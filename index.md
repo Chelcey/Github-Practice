@@ -1,13 +1,10 @@
 # This is given page (first page)
 ## Contents:
 
-1. https://chelcey.github.io/Github-Practice/
-2. https://chelcey.github.io/Github-Practice/page2
-
-|Syntax| Description|
+|Chapter| link|
 |---------|------------|
-| Header | Title |
-| Paragraph | Text |
+| Ch.1  | https://chelcey.github.io/Github-Practice/ |
+| Ch.2 | https://chelcey.github.io/Github-Practice/page2 |
 ---
 ## Welcome to GitHub Pages
 

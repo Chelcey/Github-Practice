@@ -3,7 +3,11 @@
 
 1. https://chelcey.github.io/Github-Practice/
 2. https://chelcey.github.io/Github-Practice/page2
-3. 
+
+|Syntax| Description|
+|---------|------------|
+| Header | Title |
+| Paragraph | Text |
 ---
 ## Welcome to GitHub Pages
 

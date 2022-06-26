@@ -1,4 +1,10 @@
 # This is given page (first page)
+## Contents:
+
+1. https://chelcey.github.io/Github-Practice/
+2. https://chelcey.github.io/Github-Practice/page2
+3. 
+---
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Chelcey/Github-Practice/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.

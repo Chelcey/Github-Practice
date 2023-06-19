@@ -70,15 +70,12 @@
   <a href="https://chelcey.github.io/Github-Practice/abcProjects">
     <img src="image.png" alt="Icon 1" width="75" height="75" />
   </a>
-   <span>Icon 1</span>
   </div>
   <div class="Projects">
   <a href="https://chelcey.github.io/Github-Practice/abcProjects">
     <img src="image.png" alt="Icon 2" width="75" height="75" />
   </a>
-    <span>Icon 1</span>
-  </div>
-  <div class="Dreams">
+  
 </div>
 
 </body>

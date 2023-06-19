@@ -2,6 +2,12 @@
 <html>
 <head>
   <link rel="stylesheet" href="p1.css">
+  <style> 
+    .icon-container {
+      display: flex;
+      gap: 10px; /* Adjust the gap as needed */
+    } 
+  </style> 
 </head>
 <body>
  

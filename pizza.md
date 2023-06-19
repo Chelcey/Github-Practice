@@ -6,7 +6,6 @@
     .icon-container {
       display: flex;
       gap: 75px; /* Adjust the gap as needed */
-      flex-wrap: wrap;
       justify-content: center;
     } 
     

@@ -4,8 +4,10 @@
   <link rel="stylesheet" href="p1.css">
 </head>
 <body>
+ 
   <!-- HTML content here -->
-  ### 50 x 50 px
+
+### 50 x 50 px
 <a href="https://chelcey.github.io/Github-Practice/abcProjects">
   <img src="image.png" alt="Projects" width="50" height="50" />
 </a>

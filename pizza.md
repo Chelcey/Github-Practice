@@ -71,7 +71,6 @@
     <img src="image.png" alt="Icon 1" width="75" height="75" />
   </a>
   </div>
-  <div class="Projects">
   <a href="https://chelcey.github.io/Github-Practice/abcProjects">
     <img src="image.png" alt="Icon 2" width="75" height="75" />
   </a>

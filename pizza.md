@@ -75,6 +75,10 @@
     <img src="image.png" alt="Icon 2" width="75" height="75" />
   </a>
 </div>
+  
+  <span>Icon 1</span>
+  </div>
+  <div class="Projects">
 
 </body>
 </html>

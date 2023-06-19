@@ -3,7 +3,7 @@
 </a>
 
 <a href="https://chelcey.github.io/Github-Practice/abcProjects">
-  <img src="image.png" alt="Projects" width="24" height="24" />
+  <img src="image.png" alt="Projects" width="240" height="240" />
 </a>
 
 

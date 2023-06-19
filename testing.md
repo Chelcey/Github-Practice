@@ -31,11 +31,6 @@
 <body>
  
   <!-- HTML content here -->
-
- <a href="https://example.com/page1">
-        <img src="image1.png" alt="Icon 1" />
-      </a>
-      <div class="icon-name">Icon 1</div>
   
 
 <div class="icon-container">

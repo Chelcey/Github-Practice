@@ -32,8 +32,6 @@
  
   <!-- HTML content here -->
 
-
-
 <div class="icon-container">
   <img src="image.png" alt="Icon 1" width="75" height="75" />
   <img src="image.png" alt="Icon 2" width="75" height="75" />

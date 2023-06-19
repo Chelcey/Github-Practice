@@ -5,7 +5,7 @@
   <style> 
     .icon-container {
       display: flex;
-      gap: 30px; /* Adjust the gap as needed */
+      gap: 50px; /* Adjust the gap as needed */
     } 
   </style> 
   

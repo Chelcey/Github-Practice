@@ -76,10 +76,7 @@
   </a>
 </div>
   
-  <span>Icon 1</span>
-  </div>
-  <div class="Projects">
-
+ 
 </body>
 </html>
 

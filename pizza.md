@@ -1,5 +1,5 @@
 <a href="https://example.com">
-  <img src="image.png" alt="Icon" />
+  <img src="image.png" alt="Icon" width="150" height="150" />
 </a>
 
 <a href="https://chelcey.github.io/Github-Practice/abcProjects">

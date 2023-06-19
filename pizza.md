@@ -19,3 +19,7 @@
   <img src="image.png" alt="Icon" width="150" height="150" />
 </a>
 
+<div class="icon-container">
+  <img src="image1.png" alt="Icon 1" />
+  <img src="image1.png" alt="Icon 2" />
+</div>

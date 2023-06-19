@@ -6,12 +6,20 @@
     .icon-container {
       display: flex;
       gap: 75px; /* Adjust the gap as needed */
+      flex-wrap: wrap;
+      justify-content: center;
+    } 
+    
+     .icon-container .icon {
+      display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
     } 
     
     .icon-container img {
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
     }
     
@@ -57,15 +65,20 @@
   <img src="image.png" alt="Icon 2" width="75" height="75" />
 </div>
 
+  
 <div class="icon-container">
   <a href="https://chelcey.github.io/Github-Practice/abcProjects">
     <img src="image.png" alt="Icon 1" width="75" height="75" />
   </a>
-    <div class="icon-name">Projects</div>
+   <span>Icon 1</span>
+  </div>
+  <div class="Projects">
   <a href="https://chelcey.github.io/Github-Practice/abcProjects">
     <img src="image.png" alt="Icon 2" width="75" height="75" />
   </a>
-    <div class="icon-name">Dreams</div>
+    <span>Icon 1</span>
+  </div>
+  <div class="Dreams">
 </div>
 
 </body>

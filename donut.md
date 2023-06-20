@@ -1,3 +1,13 @@
+# how to space
+---
+<style>
+    .icon-container {
+    display: flex;
+    gap: 30px; /* Adjust the gap as needed */
+  } </style>
+
+
+---
 # how to create clickable icon (with my own png) + how to add link to png 
 ---
 <div class="icon-container">
@@ -18,13 +28,5 @@
 ---
 
 ---
-# how to space
----
-<style>.icon-container {
-    display: flex;
-    gap: 30px; /* Adjust the gap as needed */
-  } </style>
 
-
----
 

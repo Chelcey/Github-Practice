@@ -1,3 +1,6 @@
+Apologies for the oversight. I see that the `z-index` property is already present in the code. In that case, let's try adjusting the `top` value for the `.additional-icon` class to ensure it is positioned correctly. Here's an updated version of the code:
+
+```html
 <style>
   .icon-container {
     display: flex;
@@ -28,7 +31,7 @@
 
   .additional-icon {
     position: absolute;
-    top: -150px; /* Adjust the vertical position as needed */
+    top: -200px; /* Adjust the vertical position as needed */
     left: calc(50% - 37.5px);
     z-index: 1;
   }
@@ -70,3 +73,8 @@
     <div class="icon-name">Icon 7</div>
   </a>
 </div>
+```
+
+Please give it a try now. The additional icon should be
+
+ positioned correctly. If you're still experiencing any issues, please let me know.

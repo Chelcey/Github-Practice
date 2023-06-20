@@ -13,11 +13,11 @@
 <head>
     <title>Step by step solving how to create circle clickable icon in horizontal row< /title>
    
-        \<style>
+        <style>
           .icon-container {
           display: flex;
           gap: 75px; }
-        \</style>
+        </style>
         
 </head>
 <body>

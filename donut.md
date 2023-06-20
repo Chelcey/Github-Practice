@@ -17,9 +17,7 @@
         /* Add your CSS code here */
           .icon-container {
           display: flex;
-          gap: 10px; /* Adjust the gap as needed */
-  }
-    </style>
+          gap: 10px; } </style>
 </head>
 <body>
     <!-- Add your HTML content here -->

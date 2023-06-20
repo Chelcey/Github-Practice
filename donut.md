@@ -11,8 +11,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Step by step solving how to create circle clickable icon in horizontal row</title>
-    <style>
+    <title>Step by step solving how to create circle clickable icon in horizontal row< /title>
+   
+        <style>
         /* Add your CSS code here */
           .icon-container {
           display: flex;

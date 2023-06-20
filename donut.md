@@ -24,10 +24,10 @@
     <!-- Add your HTML content here -->
         <div class="icon-container">
         <a href="https://example.com/page1">
-          <img src="image1.png" alt="Icon 1" />
+          <img src="image1.png" alt="Icon 1" width="75" height="75" />
         </a>
         <a href="https://example.com/page2">
-          <img src="image2.png" alt="Icon 2" />
+          <img src="image2.png" alt="Icon 2" width="75" height="75" />
         </a>
       </div>
 

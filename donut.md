@@ -1,37 +1,16 @@
 # how to create clickable icon (with my own png) + how to add link to png 
+---
 
+---
 # how to turn icon into circle
+---
 
+---
 # how to display about 6 icons in a horizontal row with spacing
+---
 
+---
 # how to size
 
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Step by step solving how to create circle clickable icon in horizontal row< /title>
-   
-        <style>
-          .icon-container {
-          display: flex;
-          gap: 75px; }
-        </style>
-        
-</head>
-<body>
-    <!-- Add your HTML content here -->
-        <div class="icon-container">
-        <a href="https://example.com/page1">
-          <img src="image.png" alt="Icon 1" width="75" height="75" />
-        </a>
-        <a href="https://example.com/page2">
-          <img src="image.png" alt="Icon 2" width="75" height="75" />
-        </a>
-      </div>
-
-
-  
-</body>
-</html>

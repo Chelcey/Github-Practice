@@ -22,10 +22,15 @@
 </head>
 <body>
     <!-- Add your HTML content here -->
-    <div class="icon-container">
-    <img src="image.png" alt="Icon 1" />
-    <img src="image.png" alt="Icon 2" />
-    </div>
+        <div class="icon-container">
+         <a href="https://example.com/page1">
+        <img src="image1.png" alt="Icon 1" />
+         </a>
+        <a href="https://example.com/page2">
+        <img src="image2.png" alt="Icon 2" />
+        </a>
+        </div>
+
   
 </body>
 </html>

@@ -1,11 +1,18 @@
-
 <style>
-  .icon-container {
+  body {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    position: relative;
-    top: 100px;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
 
   .icon-container a {
@@ -14,12 +21,11 @@
     align-items: center;
     text-align: center;
     text-decoration: none;
-    flex: 1;
   }
 
   .icon-container img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
   }
 
@@ -28,14 +34,20 @@
   }
 
   .additional-icon {
-    position: absolute;
-    top: -180px; /* Adjust the vertical position as needed */
-    left: calc(50% - 37.5px);
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 </style>
 
 <div class="icon-container">
+  <div class="additional-icon">
+    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+      <img src="image.png" alt="Additional Icon" width="75" height="75" />
+      <div class="icon-name">Additional Icon</div>
+    </a>
+  </div>
   <a href="https://chelcey.github.io/Github-Practice/abcProjects">
     <img src="image.png" alt="Icon 1" width="75" height="75" />
     <div class="icon-name">Icon 1</div>
@@ -48,12 +60,6 @@
     <img src="image.png" alt="Icon 3" width="75" height="75" />
     <div class="icon-name">Icon 3</div>
   </a>
-  <div class="additional-icon">
-    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
-      <img src="image.png" alt="Additional Icon" width="75" height="75" />
-      <div class="icon-name">Additional Icon</div>
-    </a>
-  </div>
   <a href="https://chelcey.github.io/Github-Practice/abcProjects">
     <img src="image.png" alt="Icon 4" width="75" height="75" />
     <div class="icon-name">Icon 4</div>

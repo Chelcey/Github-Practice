@@ -14,10 +14,11 @@
     <title>Step by step solving how to create circle clickable icon in horizontal row< /title>
    
         <style>
-        /* Add your CSS code here */
           .icon-container {
           display: flex;
-          gap: 10px; } </style>
+          gap: 10px; }
+        </style>
+        
 </head>
 <body>
     <!-- Add your HTML content here -->

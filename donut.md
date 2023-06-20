@@ -18,7 +18,12 @@
 ---
 
 ---
-# how to size
+# how to space
+---
+.icon-container {
+    display: flex;
+    gap: 30px; /* Adjust the gap as needed */
+  }
 
 ---
 

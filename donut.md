@@ -1,7 +1,7 @@
 # how to space
 ---
 <style>
-    .icon-container {
+    icon-container {
     display: flex;
     gap: 30px; /* Adjust the gap as needed */
   } </style>

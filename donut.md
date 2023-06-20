@@ -2,10 +2,10 @@
 ---
 <div class="icon-container">
   <a href="https://chelcey.github.io/Github-Practice/abcProjects">
-    <img src="image.png" alt="Icon 1" />
+    <img src="image.png" alt="Icon 1" width="75" height="75" />
   </a>
   <a href="[https://example.com/page2](https://chelcey.github.io/Github-Practice/abcProjects)">
-    <img src="image.png" alt="Icon 2" />
+    <img src="image.png" alt="Icon 2" width="75" height="75" />
   </a>
 </div>
 

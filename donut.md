@@ -23,8 +23,8 @@
 <body>
     <!-- Add your HTML content here -->
     <div class="icon-container">
-    <img src="image1.png" alt="Icon 1" />
-    <img src="image2.png" alt="Icon 2" />
+    <img src="image.png" alt="Icon 1" />
+    <img src="image.png" alt="Icon 2" />
     </div>
   
 </body>

@@ -14,10 +14,12 @@
 
     .icon-container {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       gap: 20px;
       position: relative;
+      margin-top: 20px;
     }
 
     .icon-container a {
@@ -59,41 +61,27 @@
       letter-spacing: -10px;
       text-align: center;
       margin: 0;
-      position: relative;
-      top: -30px; /* Adjust the value as needed */
       color: black;
     }
 
-    .resume-title span {
+    .resume-button {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .resume-button a {
       display: inline-block;
+      padding: 10px 20px;
+      background-color: #4885ed;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
     }
   </style>
 </head>
 <body>
   <div class="icon-container">
-    <div class="additional-icon">
-      <span class="resume-title">
-        <span style="color: #4885ed;">C</span>
-        <span style="color: #db3236;">h</span>
-        <span style="color: #f4c20d;">e</span>
-        <span style="color: #4885ed;">l</span>
-        <span style="color: #3cba54;">c</span>
-        <span style="color: #db3236;">e</span>
-        <span style="color: #4885ed;">y</span>
-        &nbsp;
-        <span style="color: #4885ed;">D</span>
-        <span style="color: #db3236;">o</span>
-      </span>
-      <p style="font-weight: 100; font-size: 12px; font-family: 'Product Sans', Arial, sans-serif; letter-spacing: 1px; text-align: center; color: black;">
-        <strong>Current:</strong> UCSD Student
-      </p>
-      <p style="font-weight: 100; font-size: 12px; font-family: 'Product Sans', Arial, sans-serif; letter-spacing: 1px; text-align: center; color: black;">
-        <strong>Major:</strong> Cognitive Science B.S. with a Specialization in Design and Interaction
-      </p>
-      <p style="font-weight: 100; font-size: 12px; font-family: 'Product Sans', Arial, sans-serif; letter-spacing: 1px; text-align: center; color: black;">
-        <strong>Expected Grad:</strong> 2024
-      </p>
-    </div>
     <a href="https://chelcey.github.io/Github-Practice/abcProjects">
       <img src="image.png" alt="Icon 1" width="75" height="75" />
       <div class="icon-name">Icon 1</div>
@@ -122,6 +110,34 @@
       <img src="image.png" alt="Icon 7" width="75" height="75" />
       <div class="icon-name">Icon 7</div>
     </a>
+  </div>
+
+  <div class="additional-icon">
+    <span class="resume-title">
+      <font color="#4885ed">C</font>
+      <font color="#db3236">h</font>
+      <font color="#f4c20d">e</font>
+      <font color="#4885ed">l</font>
+      <font color="#3cba54">c</font>
+      <font color="#db3236">e</font>
+      <font color="#4885ed">y</font>
+      &nbsp;
+      <font color="#4885ed">D</font>
+      <font color="#db3236">o</font>
+    </span>
+    <p style="font-weight: 100; font-size: 12px; font-family: 'Product Sans', Arial, sans-serif; letter-spacing: 1px; text-align: center; color: black; margin-top: 20px;">
+      <strong>Current:</strong> UCSD Student
+    </p>
+    <p style="font-weight: 100; font-size: 12px; font-family: 'Product Sans', Arial, sans-serif; letter-spacing: 1px; text-align: center; color: black;">
+      <strong>Major:</strong> Cognitive Science B.S. with a Specialization in Design and Interaction
+    </p>
+    <p style="font-weight: 100; font-size: 12px; font-family: 'Product Sans', Arial, sans-serif; letter-spacing: 1px; text-align: center; color: black;">
+      <strong>Expected Grad:</strong> 2024
+    </p>
+  </div>
+
+  <div class="resume-button">
+    <a href="#">Resume</a>
   </div>
 </body>
 </html>

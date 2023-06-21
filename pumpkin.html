@@ -1,92 +1,44 @@
 <button><a href="#">Motivational button that does nothing</a></button>
 
-<div class="vertical-container">
-  <div class="name-container">
-    <p style="font-weight: 549; font-size: 80px; font-family: product sans; letter-spacing: -10px; text-align: center; margin: 0;">
-      <font color="#4885ed">C</font>
-      <font color="#db3236">h</font>
-      <font color="#f4c20d">e</font>
-      <font color="#4885ed">l</font>
-      <font color="#3cba54">c</font>
-      <font color="#db3236">e</font>
-      <font color="#4885ed">y</font>
-      &nbsp;
-      <font color="#4885ed">D</font>
-      <font color="#db3236">o</font>
-    </p>
+<p style="font-weight: 549; font-size: 80px; font-family: product sans; letter-spacing: -10px; text-align: center; margin: 0;">
+  <font color="#4885ed">C</font>
+  <font color="#db3236">h</font>
+  <font color="#f4c20d">e</font>
+  <font color="#4885ed">l</font>
+  <font color="#3cba54">c</font>
+  <font color="#db3236">e</font>
+  <font color="#4885ed">y</font>
+  &nbsp;
+  <font color="#4885ed">D</font>
+  <font color="#db3236">o</font>
+</p>
 
-    <p style="font-weight: 100; font-size: 12px; font-family: product sans; letter-spacing: 1px; text-align: center; color: black;">
-      <strong>Current:</strong> UCSD Student
-    </p>
-    <p style="font-weight: 100; font-size: 12px; font-family: product sans; letter-spacing: 1px; text-align: center; color: black;">
-      <strong>Major:</strong> Cognitive Science B.S. with a Specialization in Design and Interaction
-    </p>
-    <p style="font-weight: 100; font-size: 12px; font-family: product sans; letter-spacing: 1px; text-align: center; color: black;">
-      <strong>Expected Grad:</strong> 2024
-    </p>
-  </div>
-
-  <div class="icon-container">
-    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
-      <img src="image.png" alt="Icon 1" width="75" height="75" />
-      <div class="icon-name">Icon 1</div>
-    </a>
-    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
-      <img src="image.png" alt="Icon 2" width="75" height="75" />
-      <div class="icon-name">Icon 2</div>
-    </a>
-    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
-      <img src="image.png" alt="Icon 3" width="75" height="75" />
-      <div class="icon-name">Icon 3</div>
-    </a>
-    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
-      <img src="image.png" alt="Icon 4" width="75" height="75" />
-      <div class="icon-name">Icon 4</div>
-    </a>
-    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
-      <img src="image.png" alt="Icon 5" width="75" height="75" />
-      <div class="icon-name">Icon 5</div>
-    </a>
-    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
-      <img src="image.png" alt="Icon 6" width="75" height="75" />
-      <div class="icon-name">Icon 6</div>
-    </a>
-    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
-      <img src="image.png" alt="Icon 7" width="75" height="75" />
-      <div class="icon-name">Icon 7</div>
-    </a>
-  </div>
-</div>
+<p style="font-weight: 100; font-size: 12px; font-family: product sans; letter-spacing: 1px; text-align: center; color: black;">
+  <strong>Current:</strong> UCSD Student
+</p>
+<p style="font-weight: 100; font-size: 12px; font-family: product sans; letter-spacing: 1px; text-align: center; color: black;">
+  <strong>Major:</strong> Cognitive Science B.S. with a Specialization in Design and Interaction
+</p>
+<p style="font-weight: 100; font-size: 12px; font-family: product sans; letter-spacing: 1px; text-align: center; color: black;">
+  <strong>Expected Grad:</strong> 2024
+</p>
 
 <style>
   body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
   }
 
-  .vertical-container {
+  .icon-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     position: relative;
-  }
-
-  .name-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .icon-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
   }
 
   .icon-container a {
@@ -106,4 +58,67 @@
   .icon-name {
     margin-top: 5px;
   }
+
+  .additional-icon {
+    position: absolute;
+    top: -200px; /* Adjust the value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    text-align: center;
+  }
+
+  .additional-icon img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height */
+  }
+
+  .resume-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
 </style>
+
+<div class="icon-container">
+  <div class="additional-icon">
+    <span class="resume-title">Chelcey Do</span>
+    <p style="font-weight: 100; font-size: 12px; font-family: product sans; letter-spacing: 1px; text-align: center; color: black;">
+      <strong>Current:</strong> UCSD Student
+    </p>
+    <p style="font-weight: 100; font-size: 12px; font-family: product sans; letter-spacing: 1px; text-align: center; color: black;">
+      <strong>Major:</strong> Cognitive Science B.S. with a Specialization in Design and Interaction
+    </p>
+    <p style="font-weight: 100; font-size: 12px; font-family: product sans; letter-spacing: 1px; text-align: center; color: black;">
+      <strong>Expected Grad:</strong> 2024
+    </p>
+  </div>
+  <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+    <img src="image.png" alt="Icon 1" width="75" height="75" />
+    <div class="icon-name">Icon 1</div>
+  </a>
+  <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+    <img src="image.png" alt="Icon 2" width="75" height="75" />
+    <div class="icon-name">Icon 2</div>
+  </a>
+  <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+    <img src="image.png" alt="Icon 3" width="75" height="75" />
+    <div class="icon-name">Icon 3</div>
+  </a>
+  <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+    <img src="image.png" alt="Icon 4" width="75" height="75" />
+    <div class="icon-name">Icon 4</div>
+  </a>
+  <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+    <img src="image.png" alt="Icon 5" width="75" height="75" />
+    <div class="icon-name">Icon 5</div>
+  </a>
+  <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+    <img src="image.png" alt="Icon 6" width="75" height="75" />
+    <div class="icon-name">Icon 6</div>
+  </a>
+  <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+    <img src="image.png" alt="Icon 7" width="75" height="75" />
+    <div class="icon-name">Icon 7</div>
+  </a>
+</div>

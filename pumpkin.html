@@ -1,4 +1,4 @@
-<button><a href="#">Resume</a></button>
+<button class="resume-button"><a href="#">Resume</a></button>
 
 <p style="font-weight: 549; font-size: 80px; font-family: product sans; letter-spacing: -10px; text-align: center; margin: 0;">
   <font color="#4885ed">C</font>
@@ -57,6 +57,25 @@
 
   .icon-name {
     margin-top: 5px;
+  }
+
+  .resume-button {
+    position: absolute;
+    top: -40px; /* Adjust the value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    text-align: center;
+  }
+
+  .resume-button a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #4885ed;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
   }
 
   .additional-icon {
